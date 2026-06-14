@@ -1,0 +1,28 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": [
+    "app/**/*.{ts,tsx}",
+    "components/**/*.{ts,tsx}",
+    "app/globals.css",
+    "postcss.config.mjs",
+    "lib/db/setup.ts",
+    "lib/db/seed.ts",
+    "scripts/*.ts",
+    "test/**/*.{ts,tsx}",
+    "vitest.config.mts",
+    "vitest.integration.config.mts",
+    "playwright.config.ts",
+    "next.config.ts",
+    "drizzle.config.ts",
+    "proxy.ts"
+  ],
+  "project": ["**/*.{ts,tsx,mts,cts,mjs,css}"],
+  "ignore": [
+    ".next/**",
+    ".pglite/**",
+    "coverage/**",
+    "test-results/**",
+    "playwright-report/**"
+  ],
+  "ignoreDependencies": ["@types/pdf-parse"]
+}

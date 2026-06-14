@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1779229279371,
+      "tag": "0000_lovely_king_bedlam",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1781021139571,
+      "tag": "0001_harsh_gertrude_yorkes",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1781030000000,
+      "tag": "0002_time_machine_snapshots",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1781030100000,
+      "tag": "0003_time_machine_snapshot_fk_actions",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1781306068724,
+      "tag": "0004_living_vanisher",
+      "breakpoints": true
+    }
+  ]
+}

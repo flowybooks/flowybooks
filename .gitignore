@@ -1,0 +1,83 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.worktrees/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+/.playwright-cli/
+/output/e2e/
+/output/playwright/
+/playwright-report/
+/test-results/
+/artifacts/
+*.webm
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+.vscode
+
+# Docker
+postgres_data/
+.pglite/
+.env*.local
+
+# Backups
+backups/
+*.dump
+
+# Local private notes, exports, and reference docs
+/docs-local/
+/docs-private/
+/private-docs/
+/internal-docs/
+/original-docs/
+/client-docs/
+/client-notes/
+/ops-docs/
+/runbooks/
+/legal/
+/contracts/
+/proposals/
+/reports/
+/research/
+/docs/private/
+/docs/internal/
+/docs/original/
+/docs/client/
+/docs/ops/
+/docs/legal/
+*.pdf
+*.docx
+*.xlsx
+*.sqlite
+*.sqlite3
+*.log

@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest an improvement for Flowybooks
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please keep proposals aligned with Flowybooks' local-first bookkeeping scope. Do not include real financial or personal data.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What workflow is hard or missing today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should Flowybooks do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Optional. Include simpler local-first approaches if relevant.
