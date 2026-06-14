@@ -1,0 +1,26 @@
+Code,Name,Type,Classification,IsActive,Mode
+10000,Cash,asset,current_asset,true,create
+11000,Bank Account,asset,current_asset,true,create
+12000,Accounts Receivable,asset,current_asset,true,create
+13000,Prepaid Expenses,asset,current_asset,true,create
+15000,Fixed Assets,asset,fixed_asset,true,create
+16000,Accumulated Depreciation,asset,fixed_asset,true,create
+20000,Accounts Payable,liability,current_liability,true,create
+21000,Credit Card Payable,liability,current_liability,true,create
+22000,Accrued Expenses,liability,current_liability,true,create
+25000,Notes Payable,liability,noncurrent_liability,true,create
+30000,Owner Equity,equity,equity,true,create
+31000,Retained Earnings,equity,retained_earnings,true,create
+32000,Opening Balance Equity,equity,other_equity,true,create
+33000,Prior Period Adjustments,equity,other_equity,true,create
+40000,Sales,income,sales,true,create
+41000,Service Revenue,income,income,true,create
+42000,Interest Income,income,interest_income,true,create
+50000,Cost of Goods Sold,expense,cogs,true,create
+60000,Operating Expense,expense,operating_expense,true,create
+61000,Rent Expense,expense,fixed_costs,true,create
+62000,Utilities Expense,expense,operating_expense,true,create
+63000,Payroll Expense,expense,operating_expense,true,create
+64000,Software Expense,expense,operating_expense,true,create
+65000,Professional Fees,expense,operating_expense,true,create
+66000,Depreciation Expense,expense,depreciation,true,create
