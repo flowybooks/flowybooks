@@ -63,7 +63,7 @@
     "@radix-ui/react-tabs": "^1.1.13",
     "@radix-ui/react-tooltip": "^1.2.8",
     "@tailwindcss/postcss": "4.1.17",
-    "@types/node": "^22.19.11",
+    "@types/node": "^26.0.0",
     "@types/react": "19.1.4",
     "@types/react-dom": "19.1.5",
     "ai": "^6.0.185",
